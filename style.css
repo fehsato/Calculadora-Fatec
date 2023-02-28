@@ -1,29 +1,27 @@
 body{
     text-align: center;
+    background-color: #f4f4f4a5;
 }
 
-span{
-    border-color: #000000;
-    border-style: dotted;
-}
+
 
 #num1{
     background: #fbfbfb;
-    border-style: dashed;
+    
     border-color: #000000;
     text-align: center;
 }
 
 #num2{
     background: #fbfbfb;
-    border-style: dashed;
+    
     border-color: #000000;
     text-align: center;
 }
 
 #resp{
     background: #fbfbfb;
-    border-style: dashed;
+   
     border-color: #000000;
     text-align: center;
     
@@ -32,11 +30,14 @@ span{
 }
 
 button {
-    background-color: #b4cddd;
+    background-color: #abb4ba;
     height: 50px;
-	width: 150px;
+	width: 90px;
     border-radius: 20%;
-    font-size: 200x;
+    font-size: 20px;
+    text-align:inherit;
+    
 
+    
 
 }

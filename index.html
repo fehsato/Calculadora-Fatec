@@ -6,28 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <h1>Calculadora Básica</h1>
     
-        <input type="text" id="num1"> 
-        <h1>+</h1> 
-        <input type="text" id="num2">   <br><br><br>
-        <button onclick ="somar()">Somar</button>    <br><br><br>
-        <input type="text" id="resp" readonly >
- 
-    <script>
-        function somar(){
-            var num1, num2, resp;
-            //ParseFloat(transformar string em número) O Floar é para números décimais, para números inteiros é int//
-            num1 = parseFloat(document.getElementById("num1").value);
-            num2 = parseFloat( document.getElementById("num2").value);
-            
-            resp = num1 + num2;
+    <input type="text" id="num1"> 
+    <input type="text" id="num2">  
 
-            document.getElementById("resp").value = resp;
-        }
-    </script>
+    <p>
+    <button onclick ="somar()"> + </button>    
+    <button onclick="subtrair()"> - </button> 
+    <button onclick="multiplicar()"> * </button>
+    <button onclick="dividir()"> / </button>
+    </p>
+
+    <p>
+    <input type="text" id="resp" readonly> <p></p>
+    </p>
+
+    <button onclick="apagar()"> / </button>
 
 
 
@@ -45,4 +43,5 @@
 
     
 </body>
+
 </html>
