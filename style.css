@@ -1,7 +1,42 @@
+body{
+    text-align: center;
+}
+
+span{
+    border-color: #000000;
+    border-style: dotted;
+}
+
 #num1{
     background: #fbfbfb;
+    border-style: dashed;
+    border-color: #000000;
+    text-align: center;
 }
 
 #num2{
     background: #fbfbfb;
+    border-style: dashed;
+    border-color: #000000;
+    text-align: center;
+}
+
+#resp{
+    background: #fbfbfb;
+    border-style: dashed;
+    border-color: #000000;
+    text-align: center;
+    
+    
+
+}
+
+button {
+    background-color: #b4cddd;
+    height: 50px;
+	width: 150px;
+    border-radius: 20%;
+    font-size: 200x;
+
+
 }
