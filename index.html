@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Calculadora Básica</h1>
+    
+        <input type="text" id="num1">
+        +
+        <input type="text" id="num2">
+        <button onclick ="somar()">Somar</button>    
+        <input type="text" id="resp" readonly >
+ 
+    <script>
+        function somar(){
+            var num1, num2, resp;
+            //ParseFloat(transformar string em número) O Floar é para números décimais, para números inteiros é int//
+            num1 = parseFloat(document.getElementById("num1").value);
+            num2 = parseFloat( document.getElementById("num2").value);
+            
+            resp = num1 + num2;
+
+            document.getElementById("resp").value = resp;
+        }
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
