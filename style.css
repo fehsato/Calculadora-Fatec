@@ -6,22 +6,19 @@ body{
 
 
 #num1{
-    background: #fbfbfb;
-    
+    background: #fbfbfb;    
     border-color: #000000;
     text-align: center;
 }
 
 #num2{
     background: #fbfbfb;
-    
     border-color: #000000;
     text-align: center;
 }
 
 #resp{
-    background: #fbfbfb;
-   
+    background: #fbfbfb;   
     border-color: #000000;
     text-align: center;
     
@@ -30,11 +27,11 @@ body{
 }
 
 button {
-    background-color: #abb4ba;
+    background-color: #ebd8ec;
     height: 50px;
 	width: 90px;
     border-radius: 20%;
-    font-size: 20px;
+    font-size: 15px;
     text-align:inherit;
     
 

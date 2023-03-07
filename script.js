@@ -37,7 +37,9 @@ function dividir(){
 }
 
 function apagar(){
-    num1.delete()
+    num1 = parseFloat(document.getElementById("num1").value='');
+    num2 = parseFloat(document.getElementById("num2").value='');
+    resp = parseFloat(document.getElementById("resp").value='');
     
    
 }
